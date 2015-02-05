@@ -14,11 +14,10 @@ def _format_addr(s):
 
 #from_addr = raw_input('From: ')
 #password = raw_input('Password: ')
-from_addr = '594250682@qq.com'
-password = 'Sylvanas91'
+from_addr = '3063535418@qq.com'
+password = 'songjian23'
 to_addr = raw_input('To: ')
 smtp_server = 'smtp.qq.com'
-f_addr = '55555@qq.com'
 #smtp_server = raw_input('SMTP server: ')
 msg = MIMEText('<html><body><h1>Hello</h1>' + '<p>send by <a href="http://www.python.org">Python</a>...</p>' + '</body></html>', 'plain', 'utf-8')
 msg['From'] = _format_addr(u'Python爱好者 <%s>' % from_addr)
